@@ -3,7 +3,7 @@
 
 int main()
 {
-	std::cout <<"Result of First exercise = "<< calcDelta() << endl;
+	std::cout <<"Result of First exercise = "<< calcDelta();
 	//system("pause");
 	return 0 ;
 }
