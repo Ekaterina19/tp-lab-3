@@ -21,10 +21,10 @@ double calcCost()
 	Circle road2;
 	road2.setRadius(4.0);
 
-	double Cost_will = road2.getFerence()* 2000;
+	double Cost_will = road2.getFerence() * 2000;
 
 	double Cost_road= (road2.getArea()-road1.getArea())*1000;
 
-	return Cost_road + Cost_will+11;
+	return Cost_road + Cost_will + 11;
 
 }
